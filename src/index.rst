@@ -10,7 +10,7 @@ Welcome to Made With CNC's Documentation
    :align: center
 
 Made With CNC manufacturers a variety of accessories aimed at improving operator usability. 
-Currently our main product is a pendant that offers a multitude of functions at yor finger tips.
+Currently our main product is a pendant that offers a multitude of functions at your fingertips.
 
 We are shipping handheld consoles compatible with Tormach Path Pilot machines, and soon to ship handheld consoles for PocketNC and generic LinuxCNC machines.
 
@@ -24,3 +24,4 @@ If you have questions or suggestions for additional content in this site please 
    :hidden:
    
    made-with-cnc/hand-held-consoles/tormach/index  
+   made-with-cnc/hand-held-consoles/penta-machines/index  
