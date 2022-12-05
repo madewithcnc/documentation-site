@@ -11,7 +11,6 @@ Requirements
 
 * ``Path Pilot``
     The hand held console requires Path Pilot version 2.51 or newer, it is **not** compatible with Mach3.
-
 * ``1 free USB Port``
 
 .. note:: 

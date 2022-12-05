@@ -1,9 +1,11 @@
 # in your Dockerfile
-FROM sphinxdoc/sphinx as build
+#FROM sphinxdoc/sphinx as build
+FROM sphinxdoc/sphinx-latexpdf as build
 
 WORKDIR /src
 COPY src/ ./src/
 COPY requirements.txt .
+copy *.readthedocs.yaml .
 COPY Makefile .
 RUN pip3 install -r requirements.txt
 RUN ls -l
