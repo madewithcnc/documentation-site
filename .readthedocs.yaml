@@ -1,0 +1,9 @@
+vesion: 2
+
+formats:
+  - pdf
+  - epub
+
+python:
+   install:
+   - requirements: requirements.txt

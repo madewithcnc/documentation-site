@@ -14,9 +14,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import recommonmark
-from recommonmark.transform import AutoStructify
-
 
 # -- Project information -----------------------------------------------------
 
@@ -34,7 +31,6 @@ release = '1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-  'recommonmark',
   'sphinx_rtd_theme'
 ]
 
@@ -63,18 +59,17 @@ html_static_path = []
 
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.txt': 'restructuredtext',
-    '.md': 'markdown',
+    '.txt': 'restructuredtext'
 }
 
-source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
+# source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-        #'url_resolver': lambda url: github_doc_root + url,
-        'auto_toc_tree_section': 'Contents',
-        'enable_math': True,
-        'enable_inline_math': True,
-        'enable_eval_rst': True
-    }, True)
-    app.add_transform(AutoStructify)
+# def setup(app):
+#     app.add_config_value('recommonmark_config', {
+#         #'url_resolver': lambda url: github_doc_root + url,
+#         'auto_toc_tree_section': 'Contents',
+#         'enable_math': True,
+#         'enable_inline_math': True,
+#         'enable_eval_rst': True
+#     }, True)
+#     app.add_transform(AutoStructify)
