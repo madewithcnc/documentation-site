@@ -11,6 +11,6 @@ RUN pip3 install -r requirements.txt
 RUN ls -l
 RUN make html
 
-# FROM nginx:latest
-# WORKDIR /usr/share/nginx/html/
-# COPY --from=build /src/build/html .
+FROM nginx:latest
+WORKDIR /usr/share/nginx/html/
+COPY --from=build /src/build/html .
