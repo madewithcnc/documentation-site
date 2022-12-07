@@ -140,14 +140,8 @@ If you do not already have a ``HANDHELD_CONSOLE`` section in your ``MACHINE CONF
 Valid configuration variables
 -----------------------------
 
-* BUTTON_0_SIGNAL
-    * This entry controls the behavior of the ``Hold`` button.
-* BUTTON_1_SIGNAL
-    * This entry controls the behavior of the ``Start`` button.
 * BUTTON_2_SIGNAL
     * This entry controls the behavior of the ``Aux`` button.
-* BUTTON_3_SIGNAL
-    * This entry controls the behavior of the ``Stop`` button.
 * LINEAR_JOG_INCR_BASE
     * This entry controls the jog increments for the linear axes.
 * ROTARY_JOG_INCR_BASE
