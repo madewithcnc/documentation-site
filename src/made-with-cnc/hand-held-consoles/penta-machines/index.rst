@@ -64,8 +64,7 @@ Jogging
 
 .. note:: 
    The base increment is configurable, you can use this to change the increment range to match your preference for your machine units.
-       * ``LINEAR_JOG_INCR_BASE`` - the variable to change the base increment for linear axes
-       * ``ROTARY_JOG_INCR_BASE`` - the variable to change the base increment for rotary axes
+   See :ref:`console-configuration` for more information on configuring the behavior of your hand held console. 
  
 
 Initial Setup
@@ -99,7 +98,7 @@ If you do not already have a ``PENTA_FEATURES`` section in your ``MACHINE CONFIG
 Adding a HANDHELD_CONSOLE configuration entry
 ---------------------------------------------
 
-To enable the Handheld Console functionality in Kinetic UI you need to add a config entry to the ``PENTA_FEATURES`` 
+To enable the hand held console functionality in Kinetic UI you need to add a config entry to the ``PENTA_FEATURES`` 
 
 #. Click on the ``PENTA_FEATURES`` section to select it
 #. Click the ``+`` under ``Name`` in the panel to the right of ``PENTA_FEATURES``
@@ -113,6 +112,7 @@ To enable the Handheld Console functionality in Kinetic UI you need to add a con
 
    Add Handheld_Console configuration entry
 
+.. _console-configuration:
 
 Console Configuration
 ^^^^^^^^^^^^^^^^^^^^^
@@ -121,7 +121,7 @@ The default behavior of the buttons and step increments can be changed to better
 
 .. note:: 
     You only need to add a ``HANDHELD_CONSOLE`` section and add configuration entries if you want to change the default behavior. 
-    Using the handheld console with the default behavior only requires enabling the feature in the ``PENTA_FEATURES`` configuration section.
+    Using the hand held console with the default behavior only requires enabling the feature in the ``PENTA_FEATURES`` configuration section.
 
 Adding a HANDHELD_CONSOLE section
 ---------------------------------
@@ -164,23 +164,6 @@ Jogging in mm increments
    :alt: Jogging in mm increments
 
    Jogging in mm increments
-
-
-AUX Home All
-************************
-
-#. Click on the ``HANDHELD_CONSOLE`` section to select it
-#. Click the ``+`` under ``Name`` in the panel to the right of ``HANDHELD_CONSOLE``
-#. Name the entry ``BUTTON_2_SIGNAL``
-#. Enter the value of ``home-all``
-#. Click ``Save``
-
-.. figure:: /images/kinetic-control-ui-hand-held-console-home-all.png
-   :align: center
-   :alt: AUX Home All
-
-   AUX Home All
-
 
 
 
