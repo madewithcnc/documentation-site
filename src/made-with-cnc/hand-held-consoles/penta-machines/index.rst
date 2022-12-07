@@ -117,7 +117,7 @@ To enable the hand held console functionality in Kinetic UI you need to add a co
 Console Configuration
 ^^^^^^^^^^^^^^^^^^^^^
 
-The default behavior of the buttons and step increments can be changed to better suit the requirements of the user.
+The default behavior of the Aux button and step increments can be changed to better suit the requirements of the user.
 
 .. note:: 
     You only need to add a ``HANDHELD_CONSOLE`` section and add configuration entries if you want to change the default behavior. 
@@ -166,7 +166,8 @@ Jogging in mm increments
    Jogging in mm increments
 
 
-
+.. note:: 
+    Examples on configuring the Aux button is reserved for a future release of Kinetic Control UI
 
 
    
