@@ -165,9 +165,18 @@ Jogging in mm increments
 
    Jogging in mm increments
 
+AUX Home All
+************************
 
-.. note:: 
-    Examples on configuring the Aux button is reserved for a future release of Kinetic Control UI
+#. Click on the ``HANDHELD_CONSOLE`` section to select it
+#. Click the ``+`` under ``Name`` in the panel to the right of ``HANDHELD_CONSOLE``
+#. Name the entry ``BUTTON_2_SIGNAL``
+#. Enter the value of ``home-all-1``
+#. Click ``Save``
 
+.. figure:: /images/kinetic-control-ui-hand-held-console-home-all.png
+   :align: center
+   :alt: AUX Home All
 
+   AUX Home All
    
