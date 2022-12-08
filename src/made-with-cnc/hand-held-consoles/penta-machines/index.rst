@@ -180,3 +180,5 @@ AUX Home All
 
    AUX Home All
    
+.. note:: 
+   Configuring Home All requires Kinetic Control UI version 5.3.1 or higher.
