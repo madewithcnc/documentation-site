@@ -1,6 +1,6 @@
 # in your Dockerfile
 #FROM sphinxdoc/sphinx as build
-FROM sphinxdoc/sphinx-latexpdf as build
+FROM sphinxdoc/sphinx-latexpdf:7.1.2 as build
 
 WORKDIR /src
 COPY src/ ./src/
