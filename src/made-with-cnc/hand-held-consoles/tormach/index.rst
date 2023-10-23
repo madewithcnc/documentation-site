@@ -25,24 +25,24 @@ Override Knobs
 --------------
 
 * Feed
-    * This dial corresponds to the Feed Rate slider with a range of 0% - 200%.
+    * This dial corresponds to the Feed slider with a range of 0% - 200%.
     * It controls the speed of the machine when executing feed rate moves.
 * Speed
-    * This dial corresponds to the Spindle Rate slider with a range of 0% - 200%.
+    * This dial corresponds to the RPM slider with a range of 0% - 200%.
     * It controls the RPM of the spindle motor.
 * Velocity
-    * This dial corresponds to the Max Velocity slider with a range of range 0% - 100%.
+    * This dial corresponds to the Max Vel slider with a range of range 0% - 100%.
     * It controls the maximum speed of the machine when executing any axis movement.
 
 
 Buttons
 -------
 * Start
-    * This button is equivalent to the ``CYCLE/START`` button on the Path Pilot UI and is used to start a gcode program or resume a gcode program that has been paused with the Hold button.
+    * This button is equivalent to the ``CYCLE START`` button on the Path Pilot UI and is used to start a gcode program or resume a gcode program that has been paused with the Hold button.
 * Hold
-    * This button is equivalent to the ``FEED HOLD`` button on the Path Pilot UI and is used to pause a running program.
+    * This button is equivalent to the ``FEEDHOLD`` button on the Path Pilot UI and is used to pause a running program.
 * Stop
-    * This button is equivalent to the ``RESET`` button on the Path Pilot UI and is used to stop a running program.
+    * This button is equivalent to the ``STOP`` button on the Path Pilot UI and is used to stop a running program.
 * Aux
     * This button is equivalent to the ``COOLANT`` button on the Path Pilot UI and is used to turn your coolant on and off.
 
