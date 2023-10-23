@@ -25,3 +25,4 @@ If you have questions or suggestions for additional content in this site please 
    
    made-with-cnc/hand-held-consoles/tormach/index  
    made-with-cnc/hand-held-consoles/penta-machines/index  
+   made-with-cnc/hand-held-consoles/mach4/index
