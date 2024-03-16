@@ -61,14 +61,14 @@ Jogging
 
 .. note:: 
    The buttons are highly configurable within the plugin settings.
-   See :ref:`mach4-configuration` for more information on configuring the behavior of your hand held console. 
+   See :ref:`mach4-configuration` for more information on configuring the behavior of your hand-held console. 
  
 
 Initial Setup
 ^^^^^^^^^^^^^
 
 .. note:: 
-   The hand held console needs to be connected to usb before loading the Mach4 control software.
+   The hand-held console needs to be connected to usb before loading the Mach4 control software.
 
 Deploying and enabling the plugin
 ---------------------------------
