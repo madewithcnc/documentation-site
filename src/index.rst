@@ -20,7 +20,7 @@ If you have questions or suggestions for additional content in this site please 
 
 .. toctree::
    :maxdepth: 3
-   :caption: Hand Held Consoles
+   :caption: hand-held Consoles
    :hidden:
    
    made-with-cnc/hand-held-consoles/tormach/index  

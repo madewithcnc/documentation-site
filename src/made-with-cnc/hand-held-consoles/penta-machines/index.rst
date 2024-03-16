@@ -1,8 +1,9 @@
+=================================
 Penta Machines Kinetic Control UI
 =================================
 
 Requirements
-^^^^^^^^^^^^
+============
 
 * ``Kinetic Control UI version 5.3.0 or newer``
 * ``1 free USB Port``
@@ -11,7 +12,7 @@ Requirements
     If you have multiple devices that need to connect via USB, please use a powered USB hub.
 
 Features
-^^^^^^^^
+========
 
 Override Knobs
 --------------
@@ -64,16 +65,24 @@ Jogging
 
 .. note:: 
    The base increment is configurable, you can use this to change the increment range to match your preference for your machine units.
-   See :ref:`console-configuration` for more information on configuring the behavior of your hand held console. 
+   See :ref:`console-configuration` for more information on configuring the behavior of your hand-held console. 
  
-
+.. _initial-setup:
 Initial Setup
-^^^^^^^^^^^^^
+=============
 
-To enable the hand held console functionality in Kinetic Control UI you will need to edit the machine's configuration INI.
+Kinetic Control UI v5.5.0 and newer
+-----------------------------------
+
+Starting with version 5.5.0 of the Kinetic Control UI, users no longer need to manually add configuration entries for the hand-held console to function. Simply plug the hand-held console into the USB port, and it will work automatically. 
+
+Kinetic Control UI v5.3.0 - v5.4.7
+-----------------------------------
+
+To enable the hand-held console functionality in Kinetic Control UI v5.3.0 - v5.4.7 you will need to edit the machine's configuration INI.
 
 Editing Your Machine Config
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Click on ``CONFIG`` on the top menu
 #. Scroll down to ``MACHINE CONFIG``
@@ -81,7 +90,7 @@ Editing Your Machine Config
 
 
 Adding a PENTA_FEATURES section
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you do not already have a ``PENTA_FEATURES`` section in your ``MACHINE CONFIG`` ``INI OVERLAY`` you will need to add one.
 
@@ -96,9 +105,9 @@ If you do not already have a ``PENTA_FEATURES`` section in your ``MACHINE CONFIG
 
 
 Adding a HANDHELD_CONSOLE configuration entry
----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To enable the hand held console functionality in Kinetic UI you need to add a config entry to the ``PENTA_FEATURES`` 
+To enable the hand-held console functionality in Kinetic UI you need to add a config entry to the ``PENTA_FEATURES`` 
 
 #. Click on the ``PENTA_FEATURES`` section to select it
 #. Click the ``+`` under ``Name`` in the panel to the right of ``PENTA_FEATURES``
@@ -115,13 +124,16 @@ To enable the hand held console functionality in Kinetic UI you need to add a co
 .. _console-configuration:
 
 Console Configuration
-^^^^^^^^^^^^^^^^^^^^^
+=====================
 
 The default behavior of the Aux button and step increments can be changed to better suit the requirements of the user.
 
 .. note:: 
     You only need to add a ``HANDHELD_CONSOLE`` section and add configuration entries if you want to change the default behavior. 
-    Using the hand held console with the default behavior only requires enabling the feature in the ``PENTA_FEATURES`` configuration section.
+    Using the hand-held console with the default behavior only requires :ref:`initial-setup`.
+
+.. tip:: 
+    Starting from version 5.5.0, Kinetic Control UI users can toggle ``Jog In Millimeters`` and ``Blue Button Homes Machine`` directly from the ``Additional`` tab in machine configuration, eliminating the need to manually add configuration entries to the machine INI.
 
 Adding a HANDHELD_CONSOLE section
 ---------------------------------
@@ -148,7 +160,7 @@ Valid configuration variables
     * This entry controls the jog increments for the rotary axes.
 
 Examples
-########
+^^^^^^^^
 
 Jogging in mm increments
 ************************

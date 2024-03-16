@@ -1,7 +1,7 @@
 Tormach Path Pilot
 =========================
 
-CNC Control Pendant that functions as a hand held console for Tormach Path Pilot CNC machines. 
+CNC Control Pendant that functions as a hand-held console for Tormach Path Pilot CNC machines. 
 
 It is 100% plug and play, requiring no modifications to the Path Pilot controller software. It connects to Path Pilot via a USB cable.
 
@@ -10,7 +10,7 @@ Requirements
 ^^^^^^^^^^^^
 
 * ``Path Pilot``
-    The hand held console requires Path Pilot version 2.51 or newer, it is **not** compatible with Mach3.
+    The hand-held console requires Path Pilot version 2.51 or newer, it is **not** compatible with Mach3.
 * ``1 free USB Port``
 
 .. note:: 
